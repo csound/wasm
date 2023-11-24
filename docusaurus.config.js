@@ -8,16 +8,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'WebAudio Csound',
   tagline: 'Csound on the Web',
-  url: 'https://kunstmusik.github.io',
-  baseUrl: '/icsc2022-csound-web/',
+  url: 'https://csound.com',
+  baseUrl: '/wasm/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'kunstmusik', // Usually your GitHub org/user name.
-  projectName: 'icsc2022-csound-web', // Usually your repo name.
+  organizationName: 'csound', // Usually your GitHub org/user name.
+  projectName: 'wasm', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -71,7 +71,7 @@ const config = {
           //   label: 'Tutorial',
           // },
           {
-            href: 'https://github.com/kunstmusik/icsc2022-csound-web',
+            href: 'https://github.com/csound/wasm',
             label: 'GitHub',
             position: 'right',
           },
@@ -103,7 +103,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/kunstmusik/icsc2022-csound-web',
+                href: 'https://github.com/csound/wasm',
               },
             ],
           },
